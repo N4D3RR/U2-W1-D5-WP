@@ -128,7 +128,6 @@ img {
 .trending-header h2 {
   font-size: 0.8em;
   font-weight: 600;
-  letter-spacing: 0.5px;
 }
 
 .article-grid {
@@ -143,6 +142,7 @@ img {
 .article {
   display: flex;
   gap: 1em;
+  align-items: flex-start;
 }
 
 .article-number {
@@ -531,8 +531,8 @@ img {
     gap: 64px;
     max-width: 1192px;
     margin: 0 auto;
-    padding: 0 24px;
     align-items: flex-start;
+    justify-content: space-between;
   }
   .articles {
     flex: 1;
@@ -544,7 +544,6 @@ img {
   .sidebar {
     width: 368px;
     flex-shrink: 0;
-
     padding-top: 40px;
   }
 
